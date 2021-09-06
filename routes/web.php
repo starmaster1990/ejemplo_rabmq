@@ -19,4 +19,6 @@ $router->get('/', function () use ($router) {
 
 $router->get('queue', 'PruebaController@queue');
 
-$router->get('exhange-fanout', 'PruebaController@fanout');
+$router->get('exchange-fanout', 'PruebaController@fanout');
+
+$router->get('exchange-direct', 'PruebaController@direct');
